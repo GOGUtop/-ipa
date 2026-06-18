@@ -19,7 +19,6 @@ struct RootView: View {
             SwitcherSheet()
                 .presentationDetents([.medium])
                 .presentationDragIndicator(.visible)
-                .presentationCornerRadius(28)
         }
     }
 }
