@@ -8,7 +8,7 @@ struct TavernEndpoint: Identifiable, Hashable {
     let icon: String
 
     var url: URL {
-        URL(string: "https://aaa.sillytavern.top:\(id)")!
+        URL(string: "http://aaa.sillytavern.top:\(id)")!
     }
 
     static let all: [TavernEndpoint] = [
